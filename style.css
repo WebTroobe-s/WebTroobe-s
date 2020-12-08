@@ -1,0 +1,195 @@
+@charset="UTF-8"
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {}
+
+/*Main code start*/
+.wapper-full {
+    width: 100%;
+
+
+}
+
+.wapper {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+/*heder code start*/
+.header-full {
+    background-color: darkslategray;
+    
+}
+
+.header {
+    
+    height: 50px;
+    background-color: aqua;
+    line-height: 50px;
+
+}
+
+.header p {
+
+    float: right;
+    padding-right: 710px
+}
+
+.header ul {}
+
+.header ul li {
+    float: left;
+
+}
+
+.header ul li a {
+    color: bisque;
+}
+
+.header ul li a:hover {
+    color: aqua;
+}
+
+/*heder code end*/
+
+/*Nabtcation bar start*/
+.navbar-full {
+    background-color: bisque;
+    padding: 0px;
+   
+}
+
+.navbar {
+
+    height: 80px;
+    line-height: 80px;
+    
+}
+
+.navbar > ul {}
+
+.navbar > ul > li {
+    float: right;
+    margin-right: 4px;
+}
+
+.navbar > ul > li > a {
+    color: red;
+    display: block;
+    padding: 0px 25px;
+    transition: all linear 0.9s;
+
+}
+
+.navbar > ul > li > a:hover {
+    color: red;
+    background-color: aqua;
+
+}
+.navbar > ul > li > ul > li{}
+.navbar > ul > li > ul > li > a{
+    display: block;
+    line-height: 40px;
+    padding: 2px 12px 2px 12px;
+    border-bottom: crimson;
+    
+}
+.navbar > ul > li > ul > li > a:hover{
+    color: red;
+    background-color: aqua;
+    display: block;
+}
+/*Dropdown manu*/
+.navbar > ul > li > ul{
+    position: absolute;
+    display: none;
+}
+.navbar > ul > li:hover > ul{
+    display: block;
+    background-color:bisque;
+}
+.gallery{
+  
+  float: left;
+  height:50px;
+    
+}
+
+
+/*Nabtcation bar endt*/
+
+/*banner start*/
+.banner-ful {
+    background-image: url(../image/logo%202.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.banner {
+
+    height:350px;
+
+}
+
+/*banner end*/
+
+/*contant start*/
+.contant-full {
+    background-image: url(../image/0004840.jpg)
+}
+
+.contant {
+   color: black; 
+   
+}
+.contant p{
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+/*contant end*/
+
+/*footer tart*/
+.footer-full {
+    background-color: greenyellow;
+}
+
+.footer {
+
+    height: 60px;
+    line-height: 30px;
+}
+
+.footer p {
+    float: left;
+    
+}
+
+.right {
+    color: rebeccapurple;
+    padding-left: 690px;
+
+}
+
+/*footer end*/
